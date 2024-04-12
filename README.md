@@ -1,7 +1,7 @@
 # pulse-cli
 Pulse time estimator CLI is used to predict estimated time taken to provision terraform resources of IBM-Cloud.
 
-## Generate the terraform plan output into json format
+##  Generate the terraform plan output into json format
    ```
    terraform plan --out tfplan.binary`
    terraform show -json tfplan.binary > tfplan.json`
